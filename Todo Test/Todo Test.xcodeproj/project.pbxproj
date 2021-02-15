@@ -13,6 +13,16 @@
 		7B6C692225DAA1C100FC4FAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B6C692125DAA1C100FC4FAB /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7B6C693A25DAA52900FC4FAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B6C690F25DAA1BE00FC4FAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B6C691625DAA1BE00FC4FAB;
+			remoteInfo = "Todo Test";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		7B6C691725DAA1BE00FC4FAB /* Todo Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Todo Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B6C691A25DAA1BE00FC4FAB /* TodoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoApp.swift; sourceTree = "<group>"; };
@@ -20,10 +30,19 @@
 		7B6C691E25DAA1C100FC4FAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B6C692125DAA1C100FC4FAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7B6C692325DAA1C100FC4FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B6C693525DAA52900FC4FAB /* Todo Test Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Todo Test Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6C693925DAA52900FC4FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7B6C691425DAA1BE00FC4FAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6C693225DAA52900FC4FAB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				7B6C691925DAA1BE00FC4FAB /* Todo Test */,
+				7B6C693625DAA52900FC4FAB /* Todo Test Tests */,
 				7B6C691825DAA1BE00FC4FAB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				7B6C691725DAA1BE00FC4FAB /* Todo Test.app */,
+				7B6C693525DAA52900FC4FAB /* Todo Test Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,6 +98,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		7B6C693625DAA52900FC4FAB /* Todo Test Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7B6C693925DAA52900FC4FAB /* Info.plist */,
+			);
+			path = "Todo Test Tests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -97,6 +126,24 @@
 			productReference = 7B6C691725DAA1BE00FC4FAB /* Todo Test.app */;
 			productType = "com.apple.product-type.application";
 		};
+		7B6C693425DAA52900FC4FAB /* Todo Test Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B6C693E25DAA52900FC4FAB /* Build configuration list for PBXNativeTarget "Todo Test Tests" */;
+			buildPhases = (
+				7B6C693125DAA52900FC4FAB /* Sources */,
+				7B6C693225DAA52900FC4FAB /* Frameworks */,
+				7B6C693325DAA52900FC4FAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B6C693B25DAA52900FC4FAB /* PBXTargetDependency */,
+			);
+			name = "Todo Test Tests";
+			productName = "Todo Test Tests";
+			productReference = 7B6C693525DAA52900FC4FAB /* Todo Test Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -108,6 +155,10 @@
 				TargetAttributes = {
 					7B6C691625DAA1BE00FC4FAB = {
 						CreatedOnToolsVersion = 12.4;
+					};
+					7B6C693425DAA52900FC4FAB = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 7B6C691625DAA1BE00FC4FAB;
 					};
 				};
 			};
@@ -125,6 +176,7 @@
 			projectRoot = "";
 			targets = (
 				7B6C691625DAA1BE00FC4FAB /* Todo Test */,
+				7B6C693425DAA52900FC4FAB /* Todo Test Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -136,6 +188,13 @@
 			files = (
 				7B6C692225DAA1C100FC4FAB /* Preview Assets.xcassets in Resources */,
 				7B6C691F25DAA1C100FC4FAB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6C693325DAA52900FC4FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,7 +210,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7B6C693125DAA52900FC4FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B6C693B25DAA52900FC4FAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B6C691625DAA1BE00FC4FAB /* Todo Test */;
+			targetProxy = 7B6C693A25DAA52900FC4FAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		7B6C692425DAA1C100FC4FAB /* Debug */ = {
@@ -314,6 +388,46 @@
 			};
 			name = Release;
 		};
+		7B6C693C25DAA52900FC4FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K22PG947W8;
+				INFOPLIST_FILE = "Todo Test Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cz.belohradsky.Todo-Test-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Todo Test.app/Todo Test";
+			};
+			name = Debug;
+		};
+		7B6C693D25DAA52900FC4FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K22PG947W8;
+				INFOPLIST_FILE = "Todo Test Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cz.belohradsky.Todo-Test-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Todo Test.app/Todo Test";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -331,6 +445,15 @@
 			buildConfigurations = (
 				7B6C692725DAA1C100FC4FAB /* Debug */,
 				7B6C692825DAA1C100FC4FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B6C693E25DAA52900FC4FAB /* Build configuration list for PBXNativeTarget "Todo Test Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6C693C25DAA52900FC4FAB /* Debug */,
+				7B6C693D25DAA52900FC4FAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
