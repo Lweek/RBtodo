@@ -9,9 +9,17 @@ import SwiftUI
 
 @main
 struct TodoApp: App {
+    
+    @ObservedObject var todosModelView: TodosModelView
+    
+    init() {
+        todosModelView = TodosModelView(api: API(session: URLSession.shared))
+    }
+    
     var body: some Scene {
         WindowGroup {
             MainView()
+                .environmentObject(todosModelView)
         }
     }
 }
