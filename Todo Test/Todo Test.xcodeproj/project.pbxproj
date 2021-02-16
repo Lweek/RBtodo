@@ -117,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				7B1C3F2425DB46FA00832738 /* TodosModelView.swift */,
+				7BC3CBCB25DC350300706AB6 /* AddTodoModelView.swift */,
 			);
 			path = ModelViews;
 			sourceTree = "<group>";
