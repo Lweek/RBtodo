@@ -19,6 +19,7 @@
 		7B1C3F1C25DB351E00832738 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1C3F1B25DB351E00832738 /* TodoListView.swift */; };
 		7B1C3F2025DB39FA00832738 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1C3F1F25DB39FA00832738 /* TodoView.swift */; };
 		7B1C3F2525DB46FA00832738 /* TodosModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1C3F2425DB46FA00832738 /* TodosModelView.swift */; };
+		7B1C3F2B25DB5FB900832738 /* AddTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1C3F2A25DB5FB900832738 /* AddTodoView.swift */; };
 		7B1C3F3025DB62DE00832738 /* FilledButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1C3F2F25DB62DE00832738 /* FilledButtonStyle.swift */; };
 		7B1C3F3425DC1C4200832738 /* FailureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1C3F3325DC1C4200832738 /* FailureView.swift */; };
 		7B6C691B25DAA1BE00FC4FAB /* TodoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6C691A25DAA1BE00FC4FAB /* TodoApp.swift */; };
@@ -55,6 +56,7 @@
 		7B1C3F1B25DB351E00832738 /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
 		7B1C3F1F25DB39FA00832738 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
 		7B1C3F2425DB46FA00832738 /* TodosModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosModelView.swift; sourceTree = "<group>"; };
+		7B1C3F2A25DB5FB900832738 /* AddTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoView.swift; sourceTree = "<group>"; };
 		7B1C3F2F25DB62DE00832738 /* FilledButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilledButtonStyle.swift; sourceTree = "<group>"; };
 		7B1C3F3325DC1C4200832738 /* FailureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailureView.swift; sourceTree = "<group>"; };
 		7B6C691725DAA1BE00FC4FAB /* Todo Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Todo Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -181,6 +183,7 @@
 				7B6C691C25DAA1BE00FC4FAB /* MainView.swift */,
 				7B1C3F1B25DB351E00832738 /* TodoListView.swift */,
 				7B1C3F1F25DB39FA00832738 /* TodoView.swift */,
+				7B1C3F2A25DB5FB900832738 /* AddTodoView.swift */,
 				7B1C3F3325DC1C4200832738 /* FailureView.swift */,
 				7BC3CBB725DC208C00706AB6 /* LoadingView.swift */,
 			);
@@ -341,6 +344,7 @@
 				7B1C3F3425DC1C4200832738 /* FailureView.swift in Sources */,
 				7B1C3F3025DB62DE00832738 /* FilledButtonStyle.swift in Sources */,
 				7B6C691D25DAA1BE00FC4FAB /* MainView.swift in Sources */,
+				7B1C3F2B25DB5FB900832738 /* AddTodoView.swift in Sources */,
 				7BC3CBB825DC208C00706AB6 /* LoadingView.swift in Sources */,
 				7B1C3F1C25DB351E00832738 /* TodoListView.swift in Sources */,
 				7B8099F025DAA7F600F02610 /* Todo.swift in Sources */,
