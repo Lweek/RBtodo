@@ -11,6 +11,13 @@ import SwiftUI
 
 class TodosModelView: ObservableObject {
     
+    enum State {
+        case loading
+        case ready
+        case failure
+    }
+    
+    
     let api: API
     
     init(api: API) {
@@ -20,7 +27,7 @@ class TodosModelView: ObservableObject {
     private var cancellables = Set<AnyCancellable>()
     
     
-    @Published var state = API.State.loading {
+    @Published var state: State = .loading {
         didSet {
             print("STATE: \(state)")
         }
