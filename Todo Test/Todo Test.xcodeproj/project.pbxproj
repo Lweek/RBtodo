@@ -15,8 +15,6 @@
 		7B1C3EED25DAC0C600832738 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1C3EEC25DAC0C600832738 /* API.swift */; };
 		7B1C3EF125DAC0DC00832738 /* API_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1C3EF025DAC0DC00832738 /* API_Tests.swift */; };
 		7B1C3EFA25DAC68F00832738 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1C3EF925DAC68F00832738 /* APIError.swift */; };
-		7B1C3EFE25DAC7BB00832738 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1C3EFD25DAC7BB00832738 /* TodoList.swift */; };
-		7B1C3F0225DAC8C400832738 /* TodoList_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1C3F0125DAC8C400832738 /* TodoList_Tests.swift */; };
 		7B1C3F1225DAD63000832738 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B1C3F1125DAD63000832738 /* test.json */; };
 		7B6C691B25DAA1BE00FC4FAB /* TodoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6C691A25DAA1BE00FC4FAB /* TodoApp.swift */; };
 		7B6C691D25DAA1BE00FC4FAB /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6C691C25DAA1BE00FC4FAB /* MainView.swift */; };
@@ -45,8 +43,6 @@
 		7B1C3EEC25DAC0C600832738 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		7B1C3EF025DAC0DC00832738 /* API_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_Tests.swift; sourceTree = "<group>"; };
 		7B1C3EF925DAC68F00832738 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
-		7B1C3EFD25DAC7BB00832738 /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
-		7B1C3F0125DAC8C400832738 /* TodoList_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList_Tests.swift; sourceTree = "<group>"; };
 		7B1C3F1125DAD63000832738 /* test.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
 		7B6C691725DAA1BE00FC4FAB /* Todo Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Todo Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B6C691A25DAA1BE00FC4FAB /* TodoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoApp.swift; sourceTree = "<group>"; };
@@ -177,7 +173,6 @@
 			isa = PBXGroup;
 			children = (
 				7B8099EF25DAA7F600F02610 /* Todo.swift */,
-				7B1C3EFD25DAC7BB00832738 /* TodoList.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -196,7 +191,6 @@
 			isa = PBXGroup;
 			children = (
 				7B8099F525DAA95000F02610 /* Todo_Tests.swift */,
-				7B1C3F0125DAC8C400832738 /* TodoList_Tests.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -307,7 +301,6 @@
 				7B8099F025DAA7F600F02610 /* Todo.swift in Sources */,
 				7B1C3EC625DAAE7A00832738 /* APIRequest.swift in Sources */,
 				7B6C691B25DAA1BE00FC4FAB /* TodoApp.swift in Sources */,
-				7B1C3EFE25DAC7BB00832738 /* TodoList.swift in Sources */,
 				7B1C3EE125DAB31700832738 /* TodoRequest.swift in Sources */,
 				7B1C3EED25DAC0C600832738 /* API.swift in Sources */,
 				7B1C3EFA25DAC68F00832738 /* APIError.swift in Sources */,
@@ -322,7 +315,6 @@
 				7B1C3ECF25DAAEDF00832738 /* TodosRequest_Tests.swift in Sources */,
 				7B1C3EE525DAB8BF00832738 /* TodoRequest_Tests.swift in Sources */,
 				7B1C3EF125DAC0DC00832738 /* API_Tests.swift in Sources */,
-				7B1C3F0225DAC8C400832738 /* TodoList_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
