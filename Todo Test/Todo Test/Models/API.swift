@@ -11,7 +11,10 @@ import Combine
 struct API {
     
     let session: URLSession
-    
+        
+    /// Generic fetch URLSession.
+    /// - Parameter request: API Request to be performed.
+    /// - Returns: Publisher that will publish operation result.
     func fetch<R: Codable>(request: APIRequest) -> AnyPublisher<R, APIError> {
         session
             .dataTaskPublisher(for: request.request)
