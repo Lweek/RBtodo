@@ -28,4 +28,16 @@ struct Todo: Codable, Identifiable {
         case userID = "userId"
         case id, title, completed
     }
+    
+    
+    // MARK: - UI Testing
+    
+    
+    static var dummy: Todo {
+        Todo(id: 1, userID: 1, title: "Test todo", completed: false)
+    }
+
+    static var dummyCompleted: Todo {
+        Todo(id: 1, userID: 1, title: "Test todo", completed: true)
+    }
 }
