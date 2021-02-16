@@ -12,7 +12,7 @@ import Foundation
 struct Todo: Codable, Identifiable {
     
     /// Todo identification.
-    let id: Int
+    let id: Int?
     
     /// User identification.
     let userID: Int
