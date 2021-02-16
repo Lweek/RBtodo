@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  Todo Test
+
+  Created by Vladimir Belohradsky on 16.02.2021.
+  
+*/
+
+/* Main view */
+"main-title" = "RB Todo List";
+"add-todo" = "Add todo";
+"loading" = "Loading";
+"failed-connection" = "Connection failed";
+"retry" = "Retry";
+
+/* Add todo sheet */
+"cancel" = "Cancel";
+"done" = "Done";
+"todo" = "Todo";
+"todo-user" = "User";
+"todo-title" = "Title";
+"todo-completed" = "Completed";
+"todo-title-too-long" = "Title is too long";
+"error" = "Error";
+"ok" = "OK";
+"save-not-available" = "This functionality is not available";

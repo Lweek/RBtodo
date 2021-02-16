@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  Todo Test
+
+  Created by Vladimir Belohradsky on 16.02.2021.
+  
+*/
+
+/* Main view */
+"main-title" = "RB Úkolovník";
+"add-todo" = "Přidat úkol";
+"loading" = "Načítám";
+"failed-connection" = "Načítání selhalo";
+"retry" = "Opakovat";
+
+/* Add todo sheet */
+"cancel" = "Zrušit";
+"done" = "Hotovo";
+"todo" = "Úkol";
+"todo-user" = "Uživatel";
+"todo-title" = "Název";
+"todo-completed" = "Splněno";
+"todo-title-too-long" = "Název je příliš dlouhý";
+"error" = "Chyba";
+"ok" = "Chápu";
+"save-not-available" = "Tato funkcionalita není dostupná";
