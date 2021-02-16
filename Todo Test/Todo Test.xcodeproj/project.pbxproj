@@ -164,7 +164,6 @@
 				7B8099ED25DAA6D400F02610 /* Models */,
 				7B6C692D25DAA30300FC4FAB /* Views */,
 				7B6C691A25DAA1BE00FC4FAB /* TodoApp.swift */,
-				7B6C691E25DAA1C100FC4FAB /* Assets.xcassets */,
 				7B6C692325DAA1C100FC4FAB /* Info.plist */,
 				7B6C692025DAA1C100FC4FAB /* Preview Content */,
 				7BC3CBCF25DC4B7600706AB6 /* Configuration.swift */,
@@ -245,6 +244,7 @@
 		7BC3CBBB25DC223900706AB6 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				7B6C691E25DAA1C100FC4FAB /* Assets.xcassets */,
 				7BC3CBC425DC22FB00706AB6 /* Localizable.strings */,
 			);
 			path = Data;
